@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "brandzivio-trade-costs"
+version = "0.1.0"
+description = "Small, dependency-free helpers for backtests: slippage in price and basis points, and net P&L after slippage, brokerage and percentage charges."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Brandzivio", email = "m81891287@gmail.com" }]
+keywords = ["backtesting", "slippage", "trading", "algo-trading", "transaction-costs"]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Intended Audience :: Developers",
+  "Topic :: Office/Business :: Financial :: Investment",
+]
+
+[project.urls]
+Homepage = "https://brandzivio.com"
+"Algo Trading Software Architecture" = "https://brandzivio.com/solutions/algo-trading-website-development"
+Source = "https://github.com/brandzivio/algo-trading-platform-architecture/tree/main/python"
+Issues = "https://github.com/brandzivio/algo-trading-platform-architecture/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
