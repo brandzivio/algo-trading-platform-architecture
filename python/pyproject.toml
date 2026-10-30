@@ -20,7 +20,7 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://brandzivio.com"
-"Algo Trading Software Architecture" = "https://brandzivio.com/solutions/algo-trading-website-development"
+"Algo Trading Software Guide" = "https://brandzivio.com/solutions/algo-trading-website-development"
 Source = "https://github.com/brandzivio/algo-trading-platform-architecture/tree/main/python"
 Issues = "https://github.com/brandzivio/algo-trading-platform-architecture/issues"
 
